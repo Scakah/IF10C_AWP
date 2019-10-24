@@ -56,7 +56,7 @@ int main()
 		}
 		else if (!(strcmp(cp_eingabe, "stop")))
 		{
-			goto Lstop;
+			break;
 		}
 		else
 		{
@@ -65,8 +65,5 @@ int main()
 
 	} while (getchar());
 
-	//Wenn eure Konsole nicht eh offen bleibt...
-Lstop:
-	getchar();
 }
 
