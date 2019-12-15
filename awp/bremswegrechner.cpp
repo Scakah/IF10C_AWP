@@ -15,6 +15,8 @@ int main () {
 		f_anhalteweg = f_geschwindigkeit = f_abstand = 0.0;
 		i_verzoegerung = i_reaktion = i_menue = 0;
 		
+		// Für Win-systeme system("cls");
+			system("clear");
 		//Anleitung ausgeben
 		cout << "--- Bestimmung des Anhaltewegs ---" << endl;
 		cout << "\n Bitte geben sie die gefahrene \nGeschwindigkeit in km/h ein: ";
