@@ -17,8 +17,8 @@ int main () {
 		cin >> d_preisDerWare;
 
 		d_preisDesPostens = d_preisDerWare * i_anzahl;
-
-		d_gesamtPreis = d_gesamtbetragBerechnen(d_gesamtPreis, d_preisDesPostens);
+		int i_test = 11;
+		d_gesamtPreis = d_gesamtbetragBerechnen(i_test, d_preisDesPostens);
 
 		cout << "\nWeitere Artikel:";
 		cin >> c_weitereWareImWarenkorb;
